@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\SanityRegressionTesting.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\SanityRegressionTesting.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\SanityRegressionTesting.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Appium.WebDriver" Version="4.4.0" />
+    <PackageReference Include="ExtentReports" Version="4.1.0" />
+    <PackageReference Include="InputSimulator" Version="1.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
+    <PackageReference Include="coverlet.collector" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net6.0\" />
+    <Folder Include="Screenshots\" />
+    <Folder Include="obj\Debug\net6.0\refint\" />
+    <Folder Include="obj\Debug\net6.0\ref\" />
+    <Folder Include="Screenshots\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net6.0\SanityRegressionTesting.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\SanityRegressionTesting.assets.cache" />
+    <None Include="obj\Debug\net6.0\SanityRegressionTesting.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\SanityRegressionTesting.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\SanityRegressionTesting.csproj.nuget.g.props" />
+    <None Include="obj\SanityRegressionTesting.csproj.nuget.g.targets" />
+    <None Include="SanityRegressionTesting.sln" />
+  </ItemGroup>
+
+</Project>
